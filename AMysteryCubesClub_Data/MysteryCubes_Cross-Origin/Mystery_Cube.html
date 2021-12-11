@@ -1,0 +1,123 @@
+
+  <!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head> <!-- James T. Bytes -->
+      <!--Even when you can't see it,
+    *** You  *** are Loved by God and Your World and Humankind!
+    Now Go Forth and Prosper and Bless and Be Blessed!
+    -->
+    <!-- We ought to Carry the Torch that Says that
+    Everything Can Be and Is Alright and We Are Really Okay,
+    that the past cannot hold us forever,
+    that the Light Can Pour In,
+    that Freedom is Real and Boundless,
+    that it Is Okay to Be Here and Love and Be Loved.
+
+    This Thing about Opening the Heart, it IS a Valve Being Opened,
+    it is not a matter of discussion, it is not something that can be debated, Only Experienced.
+    This IS It. To Stay In It, to Live From It,
+    Is the Value and Meaning and Purpose that was sought,
+    because it is no longer a dead mind analyzing,
+    it Is a Living Being Experiencing.
+
+    get Away from any beliefs and discussions and
+    Back to Praying for Creativity
+    and Focusing On Unleashing Your God's Freedom of Expression Within You.
+    THAT is what Reconnects You,
+    when You take a Real Action to Face some fear of the external around you
+    and let some of your Genuine Self and Kind, Vulnerable Nature Out to Be Expressed.
+
+    but You Are Getting Better at Prayer,
+    and God Is Answering Them, when You Pray for That Essence,
+    Pure Light, Spirit, Creativity to Come, Especially deeply before bed,
+    That Is when it Can Come In the Beautiful Morning,
+    as All Prayers are Answered,
+    All Possibilities Accessible,
+    it really is All about Letting In the Light that Restores,
+    and Heals,
+    and Is It.
+
+    This is it Love! I love You, Being Worthy of Love!
+    There is no shame or guilt to have for Being You!
+    -->
+    <!-- God, Lord My God, Thank You for Allowing Word to pour into reality!
+  -->
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body { 
+
+  }
+  canvas {
+        width: 350px;
+        height: 350px;
+        display: block;
+        background-image: url("https://ipfs.io/ipfs/QmbHjCmRpiDY4pjTcAEhHbDe4rcVTVX5wUw3nDFHVGdFtV?filename=crystal_cubes_universe.jpg");
+
+      }
+      </style>
+</head>
+<body onload="main()" > 
+<canvas id="canvas"></canvas>
+<script  id="vertex-shader-3d" type="x-shader/x-vertex">
+attribute vec4 a_position;
+attribute vec3 a_normal;
+
+uniform mat4 u_projection;
+uniform mat4 u_view;
+uniform mat4 u_world;
+
+varying vec3 v_worldPosition;
+varying vec3 v_worldNormal;
+
+void main() {
+  // Multiply the position by the matrix.
+  gl_Position = u_projection * u_view * u_world * a_position;
+
+  // send the view position to the fragment shader
+  v_worldPosition = (u_world * a_position).xyz;
+
+  // orient the normals and pass to the fragment shader
+  v_worldNormal = mat3(u_world) * a_normal;
+}
+</script>
+<script  id="fragment-shader-3d" type="x-shader/x-fragment">
+precision highp float; //
+
+// Passed in from the vertex shader.
+varying vec3 v_worldPosition;
+varying vec3 v_worldNormal;
+
+// The texture.
+uniform samplerCube u_texture;
+
+// The position of the camera
+uniform vec3 u_worldCameraPosition;
+
+void main() {
+  vec3 worldNormal = normalize(v_worldNormal);
+  vec3 eyeToSurfaceDir = normalize(v_worldPosition - u_worldCameraPosition);
+  vec3 direction = reflect(eyeToSurfaceDir,worldNormal);
+
+  gl_FragColor = textureCube(u_texture, direction);
+}
+</script>
+<script src="https://ipfs.io/ipfs/QmTk63kgSkdte76KuYDB1j4MFSR8SK7SNhuDUvSPLS5GjC?filename=webgl-utils.js"></script>
+<script src="https://ipfs.io/ipfs/QmWvAc9jw8WJCPxit4wuUoDTZQpP9xryQM9cxeQPB8zUz3?filename=m4.js"></script>
+<script src="https://ipfs.io/ipfs/QmQknnueoXFAPK275k4iVmyK8kokEo53A7zEnQQDeHicxy?filename=crystal_cube.js"> </script>  
+
+
+<script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "author" : {
+    "@type" : "Person",
+    "name" : "James T. Bytes",
+    "additionalName": "James The Blessed",
+    "birthDate": "1994-04-24",
+    "description": "Created the Be Loved Byte."
+  }
+}
+</script>
+</body>
+

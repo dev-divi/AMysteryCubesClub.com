@@ -1,0 +1,20 @@
+
+  {
+    "name": "The Choice Cube #101", 
+    "tokenid": "101",
+    "description": "Mystery Cube ID #101 - The Choice Cube - AMysteryCubesClub.com", 
+    "image": "ipfs://QmWn3wMVn3AMjDtuyZLjTZS7Eg5T1p8NkPbfTFjDXxRpFF",                   
+    "animation_url": "ipfs://QmVXkRczNvWoPq63widsUcJwgp7KDYnsnBeMPiFt6Xu9W4",           
+    "ipfs_url": "ipfs://QmThaUHad18ciArRysWru3RLeyobJ1bggZkUzbzFTPEKxL",              
+    "external_url": "https://amysterycubesclub.com",                                 
+    "png hash": "QmWn3wMVn3AMjDtuyZLjTZS7Eg5T1p8NkPbfTFjDXxRpFF",      
+    "by": "0xdivi",
+    "date": "1639239141",
+    "date_human": "(GMT): Saturday, December 11, 2021 4:12:21 PM, (Local): Saturday, December 11, 2021 11:12:21 AM GMT-05:00", 
+    "attributes": [
+      { "trait_type": "Cube ", "value": "Mystery" },  
+      { "trait_type": "Virtue ", "value": "Choice" }  
+    ]
+  } 
+  
+ 

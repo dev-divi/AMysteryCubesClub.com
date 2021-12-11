@@ -1,0 +1,20 @@
+
+  {
+    "name": "The Blossoming Cube #180", 
+    "tokenid": "180",
+    "description": "Mystery Cube ID #180 - The Blossoming Cube - AMysteryCubesClub.com", 
+    "image": "ipfs://Qmez5SPq9hngUBrM7MbcFC3FkahTwDeDZaeTGMNVsP9cJ5",                   
+    "animation_url": "ipfs://QmVaZ8WZBDPfoFZocc3mrNHQ3p9et2o5yqX4G69tqnA9NU",           
+    "ipfs_url": "ipfs://QmYhmwwxgNCWjEMDBXWJUTKUGPCqSHXcwC6TgkX9bZRG2b",              
+    "external_url": "https://amysterycubesclub.com",                                 
+    "png hash": "Qmez5SPq9hngUBrM7MbcFC3FkahTwDeDZaeTGMNVsP9cJ5",      
+    "by": "0xdivi",
+    "date": "1639239141",
+    "date_human": "(GMT): Saturday, December 11, 2021 4:12:21 PM, (Local): Saturday, December 11, 2021 11:12:21 AM GMT-05:00", 
+    "attributes": [
+      { "trait_type": "Cube ", "value": "Mystery" },  
+      { "trait_type": "Virtue ", "value": "Blossoming" }  
+    ]
+  } 
+  
+ 

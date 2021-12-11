@@ -1,2 +1,2 @@
-# A_Mystery_Cubes_Club
+# A Mystery Cubes Club! 
 AMysteryCubesClub.com

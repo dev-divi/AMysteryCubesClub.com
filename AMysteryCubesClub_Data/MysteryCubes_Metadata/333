@@ -1,0 +1,20 @@
+
+  {
+    "name": "The Exceptional Cube #333", 
+    "tokenid": "333",
+    "description": "Mystery Cube ID #333 - The Exceptional Cube - AMysteryCubesClub.com", 
+    "image": "ipfs://QmWqC1xLUHf9nGtM7AkACrHMiAb1UCTay3Vn9R2kW2Zbr5",                   
+    "animation_url": "ipfs://QmTLNZop8f4k85H8QWBaZxRipAgV4hVn9SunspfYwnH7wL",           
+    "ipfs_url": "ipfs://QmWaZezopw2e7iPs76d3YZmKRe7jTN6j6vMCJHFjRADSQV",              
+    "external_url": "https://amysterycubesclub.com",                                 
+    "png hash": "QmWqC1xLUHf9nGtM7AkACrHMiAb1UCTay3Vn9R2kW2Zbr5",      
+    "by": "0xdivi",
+    "date": "1639239141",
+    "date_human": "(GMT): Saturday, December 11, 2021 4:12:21 PM, (Local): Saturday, December 11, 2021 11:12:21 AM GMT-05:00", 
+    "attributes": [
+      { "trait_type": "Cube ", "value": "Mystery" },  
+      { "trait_type": "Virtue ", "value": "Exceptional" }  
+    ]
+  } 
+  
+ 

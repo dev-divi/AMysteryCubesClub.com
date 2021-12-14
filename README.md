@@ -1,2 +1,2 @@
 # A Mystery Cubes Club! 
-AMysteryCubesClub.com
+Ethereum NFT Project hosted at https://amysterycubesclub.com/
